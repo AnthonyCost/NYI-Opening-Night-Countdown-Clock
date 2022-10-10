@@ -1,0 +1,261 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://use.typekit.net/ote6pql.js"></script>
+<link rel="stylesheet" href="https://use.typekit.net/wtp0qgm.css">
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://s3.amazonaws.com/fed-nhl-microsites/prod/vendor/iframe-resizer/js/iframeResizer.contentWindow.min.js"></script>
+<base target="_parent" />
+<style type="text/css">
+	
+/* Host our fonts here */
+
+@font-face {
+
+font-family: 'Sharp Sans Display No2';
+
+   src: url('https://static1.squarespace.com/static/627d4a52be89a27fc502f686/t/6329d3556cde4554118bd662/1663685461455/SharpSansDisplayNo2-Black.ttf');
+
+}
+
+@font-face {
+
+font-family: 'Geogrotesque Sharp';
+
+   src: url('https://static1.squarespace.com/static/627d4a52be89a27fc502f686/t/6329d31f75f36d769d4afcaa/1663685407121/GeogrotesqueSharp-Bd.otf');
+
+}
+
+@font-face {
+
+font-family: 'Fifty';
+
+   src: url('https://static1.squarespace.com/static/627d4a52be89a27fc502f686/t/6329d239dbca335a51a8a6f7/1663685177365/Fifty.otf');
+
+}
+	
+
+body {
+ background-color:transparent;
+ }
+	
+p {
+    text-align: center;
+    font-size: 1em;
+    font-family: "Huben-outlined", sans-serif;
+    color: #ffffff;
+    background-color: #f26924;
+    margin: 2%;
+    letter-spacing: 1px;
+}
+
+/* Changing fonts down below */
+.islesText{
+    font-family: "Geogrotesque Sharp", sans-serif;
+}
+
+
+.islesNumbers{
+    font-family: "Fifty", sans-serif;
+}
+
+.logos {
+width:100%;
+float:left;
+margin-top:-15px;
+}
+
+.logos img{
+float:left;
+width:33.33%;
+}
+
+.versus {
+    font-family: "Geogrotesque Sharp";
+    font-size: 1.5em;
+    color: #00249c;
+    text-align: center;
+    float: left;
+    width: 30%;
+    position: relative;
+    padding-top: 10%;
+    text-transform: uppercase;
+}
+
+
+.container {
+ width:100%;
+ float:left;
+ position:relative;
+ margin-top:5px;
+ margin-bottom:20px;
+}
+
+.column {
+    width: 23%;
+    float: left;
+    position: relative;
+    margin: 0 1% 0 1%;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Geogrotesque Sharp", sans-serif;
+    color: #f26924;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Sharp Sans Display No2", sans-serif;
+    color: #00249c;
+    margin: 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+#openingNightHeader {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Sharp Sans Display No2", sans-serif;
+    color: #00249c;
+    margin: 5px;
+    line-height: 25px;
+    text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+.subhead {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Geogrotesque Sharp", sans-serif;
+    color: #00249c;
+    margin: 5px;
+    letter-spacing: 2px;
+}
+.button {
+    display: block;
+    font-family: "Geogrotesque Sharp", sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+text-transform:uppercase;
+	letter-spacing:2px;
+    background-color: #00249c;
+    color: #ffffff;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+
+.button:hover, .button:focus { 
+
+ background-color:#001e80;
+ transition: 0.35s ease-in-out;
+text-decoration: none;
+color:white;
+}
+
+.button-row {
+ width:100%;
+ float:left;
+ position:relative;
+ padding-left:15px;
+ padding-right:15px;
+}
+
+.half-column {
+width:50%;
+float:left;
+position:relative;
+padding:0% 3%;
+}
+
+.full-column {
+ width:100%;
+ float:left;
+ position:relative;
+ padding: 0% 3%;
+margin-top:0px;
+}
+</style>
+
+<h1 class="heading islesText" id="openingNightHeader">
+    OPENING NIGHT</h1>
+
+<hr style="Border:0px;background-color:#e0e0e0;padding:1px;width:50%;" />
+<h2 class="subhead islesText">Thursday, October 13, 2022<br />
+7:30 PM</h2>
+<div class="logos">
+	<img src="https://cms.nhl.bamgrid.com/images/photos/336226560/1500x1500/cut.png" style="margin-left: 4%;" />
+	<h1 class="versus islesText">vs.</h1>
+	<img src="https://cms.nhl.bamgrid.com/images/photos/336226460/1500x1500/cut.png" style="width:27%;padding-top: 4%;" />
+</div>
+
+<!--COUNTDOWN-->
+<div class="container">
+	<div class="column">
+		<p id="days" class="islesNumbers">&nbsp;</p>
+		<span class="islesText">DAYS</span>
+	</div>
+	<div class="column">
+		<p id="hours" class="islesNumbers">&nbsp;</p>
+		<span class="islesText">HOURS</span>
+	</div>
+	<div class="column">
+		<p id="mins" class="islesNumbers">&nbsp;</p>
+		<span class="islesText">MINUTES</span>
+	</div>
+	<div class="column">
+		<p id="secs" class="islesNumbers">&nbsp;</p>
+		<span class="islesText">SECONDS</span>
+	</div>
+	<script>
+
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 13, 2022 19:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+ // Get todays date and time
+ var now = new Date().getTime();
+ 
+ // Find the distance between now an the count down date
+ var distance = countDownDate - now;
+ 
+ // Time calculations for days, hours, minutes and seconds
+ var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+ var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+ 
+ // Output the result in an element with id="days"
+ document.getElementById("days").innerHTML = days;
+
+ // Output the result in an element with id="hours"
+ document.getElementById("hours").innerHTML = hours;
+
+ // Output the result in an element with id="mins"
+ document.getElementById("mins").innerHTML = minutes;
+
+ // Output the result in an element with id="secs"
+ document.getElementById("secs").innerHTML = seconds;
+
+ 
+ // If the count down is over, write some text 
+ if (distance < 0) {
+ clearInterval(x);
+ document.getElementById("demo").innerHTML = "EXPIRED";
+ }
+}, 1000);</script>
+</div>
+<div class="button-row">
+	<div class="full-column">
+		<a class="button" href="https://www.ticketmaster.com/event/30005CE7D5590F41?utm_source=nyi_website&utm_medium=organic_web&utm_campaign=nyi_belmontdepositcampaign&utm_content=CountdownClockOpeningNight" target="_blank"><span class="islesText">Get Tickets</span></a>
+	</div>
+</div>
